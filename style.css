@@ -65,25 +65,9 @@ position: relative;
 display: none;
 list-style: none;
 background-color: rgb(36, 37, 42);
-position: relative;
+position: absolute;
 width: 110px;
 }
-
-.submenu2{
-  display: none;
-  list-style: none;
-  background-color: rgb(36, 37, 42);
-  position: absolute;
-  width: 110px;
-  }
-
-  .submenu3{
-    display: none;
-    list-style: none;
-    background-color: rgb(36, 37, 42);
-    position: absolute;
-    width: 110px;
-    }
 
 
 
@@ -91,18 +75,13 @@ width: 110px;
 {
 display: block;
 }
-.list2:hover > .submenu2
+.list2:hover > .submenu
 {
 display: block;
 left: 110px;
 top: 33.3%;
 }
-.list3:hover > .submenu3
-{
-display: block;
-left: 110px;
-top: 33.3%;
-}
+
 
 
 nav a
