@@ -74,12 +74,7 @@ width: 110px;
 .list:hover > .submenu
 {
 display: block;
-}
-.list2:hover > .submenu
-{
-display: block;
-left: 110px;
-top: 33.3%;
+width: 140px;
 }
 
 
@@ -109,5 +104,8 @@ nav a:hover{
     transition: all 0.5s;
     }
     
+i{
+margin-left: 10px;
 
+}
     
